@@ -1,0 +1,102 @@
+.box {
+    background-color: white;
+    border: 0.2px solid black;
+    height: 600px;
+    width: 400px;
+    border-radius: 20px;
+}
+
+.small-box {
+    background-image: url('lake.jpeg');
+    background-size: cover;
+    height: 250px;
+    border-radius: 20px;
+}
+
+
+.third-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.read-more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    width: 130px;
+    height: 30px;
+    font-weight: bold;
+    font-size: 19px;
+    border: 0.2px solid black;
+    background-color: rgb(177, 177, 220);
+    border-radius: 20px;
+}
+
+.second-box {
+    padding: 20px 20px 20px 20px;
+
+}
+
+.fourth-box {
+    display: flex;
+}
+
+.fourth-box .button1 {
+    display: flex;
+    justify-content: center;
+    margin-right: 15px;
+    margin-top: 5px;
+    border: 1px solid black;
+    height: 20px;
+    width: 60px;
+    border-radius: 20px;
+}
+
+.fourth-box .button2 {
+    display: flex;
+    justify-content: center;
+    margin-right: 15px;
+    margin-top: 5px;
+    border: 1px solid black;
+    height: 20px;
+    width: 45px;
+    border-radius: 20px;
+}
+
+@media(max-width : 400px) and (min-width : 300px){
+    .box {
+        width: 250px;
+        height: 700px;
+    }
+}
+
+@media(max-width : 500px) and (min-width : 400px) {
+    .box {
+        width: 300px;
+        height: 650px;
+    }
+}
+
+@media(max-width : 800px) and (min-width : 700px) {
+    .box {
+        width : 450px;
+        height: 600px;
+    }
+}
+
+@media(max-width : 900px) and (min-width : 800px) {
+    .box {
+        width: 500px;
+        height: 600px;
+    }
+
+    .fourth-box .button1 {
+        margin-top : 15px;
+    }
+
+    .fourth-box .button2 {
+        margin-top : 15px;
+    }
+}
